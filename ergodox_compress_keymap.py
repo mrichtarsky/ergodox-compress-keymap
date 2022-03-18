@@ -108,8 +108,3 @@ with open(KEYMAP_FILE, 'rt') as f:
 
 with open(KEYMAP_FILE, 'wt') as f:
     f.write('\n'.join(outlines))
-
-
-
-#622 gains for 7 layers colored
-#508+150

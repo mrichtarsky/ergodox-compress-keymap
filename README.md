@@ -25,3 +25,8 @@ This script rewrites a `keymap.c` file as downloaded from Oryx in the following 
 The same can probably been done for the `keymaps` itself.
 
 Bit coding could improve compression further ;)
+
+
+# Usage
+
+Adjust `KEYMAP_FILE` at the top of `ergodox_compress_keymap.py`. **That file will be overwritten with the new version!** Then run the script to get a compressed `keymap.c`.
